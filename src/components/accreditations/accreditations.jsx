@@ -1,7 +1,7 @@
 import React from "react";
 import "./accreditations.css";
 const accreditations = () => {
-  return <div>accreditations</div>;
+  return <section id="certificates">Accreditations</section>;
 };
 
 export default accreditations;
