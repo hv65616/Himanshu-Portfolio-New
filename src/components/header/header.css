@@ -10,6 +10,10 @@ header {
     position: relative;
 }
 
+.link:hover {
+    color: white;
+}
+
 /* Design for Resume and Lets Talk Button */
 .cta {
     margin-top: 2.5rem;
@@ -58,6 +62,10 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+.scroll_down:hover {
+    color: white;
 }
 
 /* Media Queries--Medium Devices */

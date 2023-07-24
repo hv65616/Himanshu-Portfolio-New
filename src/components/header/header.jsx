@@ -21,13 +21,28 @@ const header = () => {
           </a>
         </div>
         <div className="header_socials">
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
             <BsLinkedin></BsLinkedin>
           </a>
-          <a href="https://www.github.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.github.com"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
             <BsGithub></BsGithub>
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
             <BsInstagram></BsInstagram>
           </a>
         </div>
