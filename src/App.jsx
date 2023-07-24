@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./components/header/header";
-import Nav from "./components/nav/nav";
+import Navv from "./components/nav/Nav";
 import About from "./components/about/about";
 import Education from "./components/education/education";
-import Skill from "./components/skills/skill";
+// import Skill from "./components/skills/skill";
 import Portfolio from "./components/portfolio/portfolio";
 import Accrediation from "./components/accreditations/accreditations";
 import Contact from "./components/contact/contact";
@@ -12,10 +12,10 @@ const App = () => {
   return (
     <>
       <Header></Header>
-      <Nav></Nav>
+      <Navv></Navv>
       <About></About>
       <Education></Education>
-      <Skill></Skill>
+      {/* <Skill></Skill> */}
       <Portfolio></Portfolio>
       <Accrediation></Accrediation>
       <Contact></Contact>
